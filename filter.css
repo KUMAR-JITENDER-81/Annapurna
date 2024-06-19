@@ -1,0 +1,117 @@
+body {
+    background-image: url("Images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.search button {
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(112, 112, 255);
+    border: white 2px solid;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+form {
+    margin: 10px;
+}
+
+.container1 {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.maincontainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cont {
+    border: 5px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem rgb(60, 60, 227);
+    justify-content: center;
+    display: flex;
+    margin: 15px;
+}
+
+.image {
+    height: 215px;
+    width: 215px;
+    margin: 10px;
+}
+
+.text {
+    max-width: 350px;
+    text-align: left;
+    font-size: 15px;
+    color: white;
+}
+
+.vl {
+    border-left: 6px solid white;
+    height: 230px;
+    margin: 5px 5px;
+}
+
+.location {
+    max-width: 150px;
+    text-align: center;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+.in {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(112, 112, 255);
+    border: white 2px solid;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+button:hover {
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 250);
+    color: white;
+    transform: scale(1.02);
+}

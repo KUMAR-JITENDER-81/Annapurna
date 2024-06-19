@@ -1,0 +1,54 @@
+*{
+    background-color: black;
+   
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.about h1{
+   font-size: 4rem;
+  color: white;
+  padding-left: 2rem;
+}
+.about p{
+    
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+}
+.about img{
+    width:900px;
+    height: auto;
+    
+}
+.log{
+    
+    color: white;
+    background-color: orange;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 5px;
+}
+.logi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -6rem;
+}
+.loge{
+    color: white;
+    background-color: orange;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 5px;
+}
+.logi1{
+    padding-right: 2rem;
+}
